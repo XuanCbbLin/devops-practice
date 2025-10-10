@@ -1,0 +1,81 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+*.tfvars
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# AWS Credentials & Sensitive Data
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+.aws/
+aws-credentials.json
+
+# Lambda Package Files
+*.zip
+node_modules/
+package-lock.json
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env
+.python-version
+
+# Node.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.out
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# CloudWatch & Monitoring
+cloudwatch-logs/
+metrics/
+
+terraform-generated-key.pem
