@@ -8,3 +8,4 @@
 -   S3 靜態網頁部署研究
     -   [了解 S3 靜態網頁部署](understand-static-page-deploy/README.md)
     -   [實作 Cloudfront CDN 功能](understand-static-page-deploy/README.md#實作-Cloudfront-CDN-功能)
+-   [docker desktop 本地 Kubernetes 環境建置](k8s-local-plan/README.md)
